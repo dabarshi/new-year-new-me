@@ -41,7 +41,7 @@
 
 .banner {
     width: 50%;
-    margin: auto 200px;
+    margin: auto 150px;
 }
 
 .banner-title {
@@ -54,6 +54,7 @@
 .banner-description {
     color: #444343;
     margin-bottom: 32px;
+    padding-left: 200px;
 }
 
 /* failures section style */
@@ -133,6 +134,7 @@ ul li::marker {
     height: 300px;
     margin: 130px auto;
     background: linear-gradient(to right, rgb(222, 70, 24, 1), rgba(0, 0, 0, 0)), url("images/watch.png") no-repeat;
+    background-blend-mode: multiply;
     display: flex;
     align-items: center;
     border-radius: 8px;
@@ -143,6 +145,7 @@ ul li::marker {
 }
 .mindset-section-content {
     padding: 60px 64px;
+    width: 50%;
 }
 
 /* footer section */
