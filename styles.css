@@ -133,7 +133,6 @@ ul li::marker {
     height: 300px;
     margin: 130px auto;
     background: linear-gradient(to right, rgb(222, 70, 24, 1), rgba(0, 0, 0, 0)), url("images/watch.png") no-repeat;
-    background-blend-mode: overlay;
     display: flex;
     align-items: center;
     border-radius: 8px;
@@ -150,6 +149,7 @@ ul li::marker {
 
 footer {
     background-color: black;
+    padding: 130px;
 
    
 }
@@ -159,6 +159,7 @@ footer {
     align-items: center;
     width: 1140px;
     margin: auto;
+    gap: 300px;
 }
 .future-section {
     width: 50%;
@@ -188,4 +189,18 @@ footer {
 form label {
     color: white;
     display: block;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 28px;
+}
+
+.subscribe input[type="email"] {
+    border-radius: 8px;
+    border: 1px solid white;
+    font-size: 18px;
+    padding-top: 16px;
+    padding-left: 20px;
+    padding-bottom: 16px;
+    background: transparent;
+    margin-bottom: 16px;
 }
