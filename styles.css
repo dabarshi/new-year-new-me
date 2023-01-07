@@ -148,12 +148,47 @@ ul li::marker {
     width: 50%;
 }
 
-/* footer section */
+/* my blog section style */
+.my-blog {
+    width: 1140px;
+    height: 300px;
+    display: flex;
+    margin: 0 auto 130px;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to left, rgb(18, 143, 227), rgba(0, 0, 0, 0));
+    border-radius: 8px;
+}
+
+.my-blog .section-content {
+    width: 50%;
+
+}
+.blogs {
+    margin-bottom: 16px;
+}
+.blog-title {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.blog-detail {
+    color: #444343;
+}
+.blog-section-title {
+    width: 50%;
+    text-align: center;
+}
+
+.my-blog .section-title {
+    color: white;
+}
+
+/* footer section style */
 
 footer {
     background-color: black;
     padding: 130px;
-
    
 }
 .footer-section {
